@@ -1,0 +1,246 @@
+body{
+    background-color: rgb(40, 43, 43);
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sectionTitle{
+    color: #65d9fe;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-size: 20px;
+    
+}
+
+.navigation-link{
+    margin-left: 30px;
+}
+.navigation-logo{
+    margin-right: 6px;
+}
+
+.navigation-link:hover{
+    color: rgb(52, 157, 206);
+}
+
+.header{
+    background-image: url("img/robot.jpg");
+    height: 73vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(78, 78, 78);
+    padding: 25px;
+}
+
+h1{
+    font-size: 105px;
+    margin-top: 47px;
+}
+ 
+.header-description{
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.link{
+    font-size: 20px;
+    background-color: aqua;
+    display: inline-block ;
+    margin-top: 45px;
+    padding: 30px 85px;
+    color: white;
+    background:linear-gradient(90deg, rgb(102 220 249),rgb(111 251 204)) ;
+}
+
+.second-icons{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.icon-word{
+    font-size: 26px ;
+    color: #65d9fe;
+}
+
+.icons-block{
+    width: 25%;
+}
+
+.size-icons{
+    height: 140px;
+}
+
+.games{
+    background-color: #222222;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.image-games{
+    width: 50%;
+}
+
+.game{
+    width: 50%;
+    padding: 25px;
+}
+
+.block-games{
+    display: flex;
+}
+
+hr{
+    width: 120px;
+    height: 2px;
+    border-color:#70feca;
+    background-color: #70feca;
+    margin-bottom: 17px;
+}
+
+.game-title{
+    color: #70feca;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.game-word{
+    font-size: 23px;
+}
+
+.text-bottom{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.bottom-line{
+    width: 80%;
+    height: 2px;
+    border-color:#ffffff;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bottom-panel{
+    background-color: #65daff;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+}
+
+.bottom-click{
+    font-size: 40px;
+}
+
+.bottom-link{
+    font-size: 20px;
+    background-color: rgb(1, 2, 2);
+    color: #ffffff;
+    display: inline-block;
+    height: fit-content;
+    padding: 20px 60px;
+    
+}
+
+.action{
+    background-color: #222222;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.top-panel{
+    background-color: #65daff;
+    height: 60px;
+    display: flex;
+}
+
+.form-title{
+    font-size: 25px;
+    margin: auto;
+    margin-left: 400px;
+}
+
+.form-back{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+}
+
+.form-input{
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 20px;
+}
+
+.set1{
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.more-info-textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    resize: none;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 16px;
+}
+
+.form-panel{
+    margin: 40px;
+}
+
+.main-form{
+    padding: 20px;
+}
+
+.gender-buttons{
+    margin-top: 30px;
+}
+
+#ageCheckbox{
+    margin-bottom: 30px;
+}
+
+.form-button{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+}

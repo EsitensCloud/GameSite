@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1250px) {
+    .container{ 
+        width: 95% ;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    h1{
+        font-size: 70px;
+    }
+    .header-description{
+        font-size: 65px;
+    }
+    .header{
+        height: 67vh;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .size-icons{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .bottom-click{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .bottom-click{
+        font-size: 23px;
+    }
+    .bottom-link{
+        font-size: 16px;
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    h1{
+        font-size: 55px;
+    }
+    .header-description{
+        font-size: 45px;
+    }
+    .header{
+        height: 61vh;
+    }
+    .second-icons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .size-icons{
+        margin-top: 40px;
+    }
+    .icons-block{
+        width: 85%;
+        margin-top: 20px;
+    }
+    .icon-word{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .block-games{
+        flex-direction: column;
+    }
+    .image-games{
+        display: none;
+    }
+    .game{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .bottom-panel{
+        flex-direction: column;
+    } 
+    .bottom-link{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    h1{
+        font-size: 40px;
+    }
+    .header-description{
+        font-size: 35px;
+    }
+    .header{
+        height: 55vh;
+    }
+    .size-icons{
+        margin-top: 40px;
+        height: 90%;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .navigation{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .link{
+        font-size: 13px;
+        padding: 20px 55px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .bottom-click{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    h1{
+        font-size: 30px;
+    }
+    .header-description{
+        font-size: 25px;
+    }
+    .header{
+        height: 49vh;
+    }
+    .mobile{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .bottom-click{
+        font-size: 15px;
+    }
+    .link{
+        padding: 17px 45px;
+    }
+    .bottom-click{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 310px){
+    .m3{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .size-icons{
+        width: 50%;
+        height: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    .header-description{
+        margin-top: 20px ;
+        font-size: 20px;
+    }
+    .header{
+        height: 41vh;
+    }
+    .navigation{
+        font-size: 100px;
+    }
+    .link{
+        font-size: 12px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+}
+
+
+
+

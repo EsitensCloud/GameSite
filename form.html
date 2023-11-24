@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Заявка на вступление в клан</title>
+</head>
+
+<body>
+    <div class="games container">
+        <div class="top-panel">
+            <a href="/" class="form-back"> &lt; </a>
+            <h1 class="form-title">Заявка на вступление</h1>
+        </div>
+        <form class="form-panel">
+            <fieldset class="set1">
+                <legend> Ваш никнейм в реальной жизни =&#41; </legend>
+                <div>
+                    <input class="form-input" type="text" placeholder="Имя">
+                    <input class="form-input" type="text" placeholder="Фамилия">
+                </div>
+            </fieldset>
+            <h3>Ваш пол</h3>
+            <div>
+                <input class="gender-buttons" type="radio" name="gender" value="male" id="male">
+                <label for="male">М</label>
+                <input class="gender-buttons" type="radio" name="gender" value="female" id="female">
+                <label for="female">Ж</label>
+            </div>
+            <div>
+                <input class="gender-buttons" type="checkbox" id="ageCheckbox" name="ageCheckbox">
+                <label for="ageCheckbox">Мне есть 18 лет</label>
+            </div>
+            <div>
+                <label for="discipline">Ваша дисциплина:</label>
+                <select id="discipline" name="discipline">
+                    <option value="CS GO">CS GO</option>
+                    <option value="Dota 2">Dota 2</option>
+                    <option value="Apex Legends">Apex Legends</option>
+                </select>
+            </div>
+            <div>
+                <textarea class="more-info-textarea"></textarea>
+            </div>
+            <div class="form-button">
+                <button class="link">Записаться в клан</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
